@@ -20,8 +20,6 @@ div {
   text-align: center;
   color: white; }
   div a {
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: normal; }
   div a:hover {
     color: pink; }
