@@ -1,3 +1,7 @@
+$main_color: purple;
+$color2: pink;
+$color3: white;
+
 body {
     background-color: rgb(255, 214, 250);
 }
@@ -17,31 +21,31 @@ h2 {
 }
 
 .nav {
-    background-color: purple;
+    background-color: $main_color;
     height: 50px;
     width: 400px;
     margin: 10px;
-    color: white;
+    color: $color3;
     text-align: center;
     a {
         font-weight: normal;
-        color: white;
+        color: $color3;
     }
     a:hover {
-        color: pink;
+        color: $color2;
     }
 }
 
 .container {
-    background-color: purple;
+    background-color: $main_color;
     @extend %text;
-    color: pink;
-    border: 1px solid pink;
+    color: $color2;
+    border: 1px solid $color2;
     border-collapse: collapse;
     .row {
-        border: 1px solid pink;
+        border: 1px solid $color2;
         .col {
-            border: 1px solid pink;
+            border: 1px solid $color2;
         }
     }
 }
@@ -72,18 +76,18 @@ ul {
 
 .fav {
     @extend %text;
-    color: purple;
+    color: $main_color;
 }
 
 table {
     @extend %text;
-    background-color: pink;
+    background-color: $color2;
     border: 1px solid black;
     margin: 10px;
     border-collapse: collapse;
     thead {
         font-weight: bold;
-        color: purple;
+        color: $main_color;
         border: 1px solid black;
         padding: 2px;
     }
