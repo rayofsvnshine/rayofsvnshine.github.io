@@ -1,21 +1,30 @@
 h1 {
-  font-size: 24px; }
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif; }
 
-p, ul, .fav, #current {
+h2 {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; }
+
+div {
+  color: purple;
+  height: 50px;
+  width: 200px; }
+
+p, ul, .fav {
   font-size: 18px;
-  font-family: "Times New Roman", Times, serif; }
+  font-family: 'Times New Roman', Times, serif; }
 
 p {
   color: black; }
 
 ul {
   color: green; }
+  ul #current {
+    text-decoration: underline; }
 
 .fav {
   color: purple; }
 
-#current {
-  text-decoration: underline;
-  color: black; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
