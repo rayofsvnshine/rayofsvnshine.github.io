@@ -12,17 +12,17 @@ h2 {
   font-weight: bold;
   padding: 4px; }
 
-div {
+.nav {
   background-color: purple;
-  height: 50px;
+  height: 80px;
   width: 400px;
   margin: 10px;
   text-align: center;
   color: white; }
-  div a {
+  .nav a {
     font-weight: normal;
     color: white; }
-  div a:hover {
+  .nav a:hover {
     color: pink; }
 
 a, p, ul, .fav, table {
@@ -59,7 +59,7 @@ table {
     border: 1px solid black;
     padding: 2px; }
   table tr {
-    border: 1px solid black;
+    border: 1px dashed black;
     padding: 2px; }
 
 /*# sourceMappingURL=styles.css.map */

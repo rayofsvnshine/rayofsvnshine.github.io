@@ -15,9 +15,9 @@ h2 {
     padding: 4px;
 }
 
-div {
+.nav {
     background-color: purple;
-    height: 50px;
+    height: 80px;
     width: 400px;
     margin: 10px;
     text-align: center;
@@ -78,7 +78,7 @@ table {
         padding: 2px;
     }
     tr {
-        border: 1px solid black;
+        border: 1px dashed black;
         padding: 2px;
     }
 }
