@@ -35,6 +35,8 @@ h2 {
     border: 1px solid pink; }
     .container .row .col {
       border: 1px solid pink; }
+    .container .row .col-6 {
+      border: 1px solid pink; }
 
 .container, a, p, ul, .fav, table {
   font-size: 18px;
