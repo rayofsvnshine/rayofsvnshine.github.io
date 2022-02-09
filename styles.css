@@ -16,22 +16,20 @@ div {
   background-color: purple;
   height: 50px;
   width: 400px;
-  margin: 10px; }
-  div h2 {
-    text-align: center;
-    color: white; }
+  margin: 10px;
+  text-align: center;
+  color: white; }
   div a {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    color: white;
-    text-align: center; }
+    font-weight: normal; }
   div a:hover {
     color: pink; }
 
 a, p, ul, .fav, table {
   font-size: 18px;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px; }
 
 a {
   color: #28a6cf; }
