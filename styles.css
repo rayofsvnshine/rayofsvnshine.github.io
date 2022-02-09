@@ -15,7 +15,7 @@ h2 {
 
 .nav {
   background-color: purple;
-  height: 80px;
+  height: 50px;
   width: 400px;
   margin: 10px;
   color: white;
@@ -28,7 +28,13 @@ h2 {
 
 .container {
   background-color: purple;
-  color: pink; }
+  color: pink;
+  border: 1px solid pink;
+  border-collapse: collapse; }
+  .container .row {
+    border: 1px solid pink; }
+    .container .row .col {
+      border: 1px solid pink; }
 
 .container, a, p, ul, .fav, table {
   font-size: 18px;
@@ -66,5 +72,8 @@ table {
   table tr {
     border: 1px dashed black;
     padding: 2px; }
+
+svg {
+  margin: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
