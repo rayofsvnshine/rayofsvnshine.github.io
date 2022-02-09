@@ -16,7 +16,7 @@ h2 {
 .nav {
   background-color: purple;
   height: 50px;
-  width: 400px;
+  width: 300px;
   margin: 10px;
   color: white;
   text-align: center; }
@@ -74,6 +74,7 @@ table {
     padding: 2px; }
 
 svg {
-  margin: 20px; }
+  padding: 20px;
+  margin: 5px; }
 
 /*# sourceMappingURL=styles.css.map */

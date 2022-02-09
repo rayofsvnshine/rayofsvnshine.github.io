@@ -23,7 +23,7 @@ h2 {
 .nav {
     background-color: $main_color;
     height: 50px;
-    width: 400px;
+    width: 300px;
     margin: 10px;
     color: $color3;
     text-align: center;
@@ -103,5 +103,6 @@ table {
 }
 
 svg {
-    margin: 20px;
+    padding: 20px;
+    margin: 5px;
 }
