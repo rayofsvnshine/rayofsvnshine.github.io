@@ -11,12 +11,16 @@ div {
   background-color: purple;
   height: 50px;
   width: 400px; }
+  div h2 {
+    text-align: center;
+    color: white; }
   div a {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
-    color: #b3b3b3;
-    padding: 10px; }
+    color: white;
+    padding: 10px;
+    text-align: center; }
 
 a, p, ul, .fav {
   font-size: 18px;
