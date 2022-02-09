@@ -20,20 +20,21 @@ div {
   text-align: center;
   color: white; }
   div a {
-    font-weight: normal; }
+    font-weight: normal;
+    color: white; }
   div a:hover {
     color: pink; }
 
 a, p, ul, .fav, table {
   font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
-  padding: 10px; }
+  font-family: 'Times New Roman', Times, serif; }
 
 a {
   color: #28a6cf; }
 
 p {
-  color: black; }
+  color: black;
+  margin: 10px; }
 
 ul {
   color: #d121d1; }
@@ -46,6 +47,7 @@ ul {
 table {
   background-color: pink;
   border: 1px solid black;
+  margin: 10px;
   border-collapse: collapse; }
   table thead {
     font-weight: bold;

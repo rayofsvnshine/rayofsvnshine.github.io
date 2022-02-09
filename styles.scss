@@ -24,6 +24,7 @@ div {
     color: white;
     a {
         font-weight: normal;
+        color: white;
     }
     a:hover {
         color: pink;
@@ -33,7 +34,6 @@ div {
 %text {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
 }
 
 a {
@@ -44,6 +44,7 @@ a {
 p {
     @extend %text;
     color: black;
+    margin: 10px;
 }
 
 ul {
@@ -63,6 +64,7 @@ table {
     @extend %text;
     background-color: pink;
     border: 1px solid black;
+    margin: 10px;
     border-collapse: collapse;
     thead {
         font-weight: bold;
