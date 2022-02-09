@@ -21,8 +21,10 @@ div {
     color: white;
     padding: 10px;
     text-align: center; }
+  div a:hover {
+    color: pink; }
 
-a, p, ul, .fav {
+a, p, ul, .fav, table {
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif; }
 
@@ -39,5 +41,19 @@ ul {
 
 .fav {
   color: purple; }
+
+table {
+  background-color: pink;
+  border: 1px solid black;
+  border-collapse: collapse; }
+  table thead {
+    font-weight: bold;
+    color: purple;
+    border: 1px dashed black;
+    padding: 2px; }
+  table tbody {
+    color: #fc27fc;
+    border: 1px dashed black;
+    padding: 2px; }
 
 /*# sourceMappingURL=styles.css.map */

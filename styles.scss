@@ -25,6 +25,9 @@ div {
         padding: 10px;
         text-align: center;
     }
+    a:hover {
+        color: pink;
+    }
 }
 
 %text {
@@ -55,3 +58,20 @@ ul {
     color: purple;
 }
 
+table {
+    @extend %text;
+    background-color: pink;
+    border: 1px solid black;
+    border-collapse: collapse;
+    thead {
+        font-weight: bold;
+        color: purple;
+        border: 1px dashed black;
+        padding: 2px;
+    }
+    tbody {
+        color: rgb(252, 39, 252);
+        border: 1px dashed black;
+        padding: 2px;
+    }
+}
