@@ -1,12 +1,20 @@
 h1 {
-size: 24px;
+font-size: 24px;
+}
+
+p {
+font-size: 18px;
 }
 
 ul {
-size: 18px;
+font-size: 18px;
 color: blue;
 }
 
 .fav {
 color: purple;
+}
+
+#current {
+class="text-decoration-underline"
 }
