@@ -1,0 +1,21 @@
+h1 {
+  font-size: 24px; }
+
+p, ul, .fav, #current {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif; }
+
+p {
+  color: black; }
+
+ul {
+  color: green; }
+
+.fav {
+  color: purple; }
+
+#current {
+  text-decoration: underline;
+  color: black; }
+
+/*# sourceMappingURL=style.css.map */
