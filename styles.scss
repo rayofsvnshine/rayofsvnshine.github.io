@@ -22,6 +22,7 @@ h2 {
     width: 400px;
     margin: 10px;
     color: white;
+    text-align: center;
     a {
         font-weight: normal;
         color: white;
@@ -29,6 +30,12 @@ h2 {
     a:hover {
         color: pink;
     }
+}
+
+.container {
+    background-color: purple;
+    @extend %text;
+    color: pink;
 }
 
 %text {

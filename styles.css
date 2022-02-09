@@ -18,14 +18,19 @@ h2 {
   height: 80px;
   width: 400px;
   margin: 10px;
-  color: white; }
+  color: white;
+  text-align: center; }
   .nav a {
     font-weight: normal;
     color: white; }
   .nav a:hover {
     color: pink; }
 
-a, p, ul, .fav, table {
+.container {
+  background-color: purple;
+  color: pink; }
+
+.container, a, p, ul, .fav, table {
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif; }
 
