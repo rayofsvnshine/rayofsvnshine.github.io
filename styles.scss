@@ -1,18 +1,25 @@
+body {
+    background-color: rgb(255, 214, 250);
+}
+
 h1 {
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
 }
 
 h2 {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    padding: 10px;
 }
 
 div {
     background-color: purple;
     height: 50px;
     width: 400px;
+    margin: 10px;
     h2 {
         text-align: center;
         color: white;
@@ -22,7 +29,6 @@ div {
         font-family: 'Times New Roman', Times, serif;
         font-weight: normal;
         color: white;
-        padding: 10px;
         text-align: center;
     }
     a:hover {
@@ -47,7 +53,7 @@ p {
 
 ul {
     @extend %text;
-    color: green;
+    color: rgb(209, 33, 209);
     #current {
         text-decoration: underline;
     }
@@ -66,12 +72,16 @@ table {
     thead {
         font-weight: bold;
         color: purple;
-        border: 1px dashed black;
+        border: 1px solid black;
         padding: 2px;
     }
     tbody {
-        color: rgb(252, 39, 252);
-        border: 1px dashed black;
+        color: rgb(209, 33, 209);
+        border: 1px solid black;
+        padding: 2px;
+    }
+    tr {
+        border: 1px solid black;
         padding: 2px;
     }
 }

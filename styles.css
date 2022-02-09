@@ -1,16 +1,22 @@
+body {
+  background-color: #ffd6fa; }
+
 h1 {
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif; }
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px; }
 
 h2 {
   font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 10px; }
 
 div {
   background-color: purple;
   height: 50px;
-  width: 400px; }
+  width: 400px;
+  margin: 10px; }
   div h2 {
     text-align: center;
     color: white; }
@@ -19,7 +25,6 @@ div {
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
     color: white;
-    padding: 10px;
     text-align: center; }
   div a:hover {
     color: pink; }
@@ -35,7 +40,7 @@ p {
   color: black; }
 
 ul {
-  color: green; }
+  color: #d121d1; }
   ul #current {
     text-decoration: underline; }
 
@@ -49,11 +54,14 @@ table {
   table thead {
     font-weight: bold;
     color: purple;
-    border: 1px dashed black;
+    border: 1px solid black;
     padding: 2px; }
   table tbody {
-    color: #fc27fc;
-    border: 1px dashed black;
+    color: #d121d1;
+    border: 1px solid black;
+    padding: 2px; }
+  table tr {
+    border: 1px solid black;
     padding: 2px; }
 
 /*# sourceMappingURL=styles.css.map */
